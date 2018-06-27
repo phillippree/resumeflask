@@ -2,7 +2,7 @@ from flask import Blueprint, render_template, send_from_directory
 
 homeapp = Blueprint('homeapp', __name__)
 
-directory = r'/home/phillip/projects/resumereact/files'
+directory = r'/home/phillip/projects/resumeflask/files'
 
 @homeapp.route('/')
 def home():
